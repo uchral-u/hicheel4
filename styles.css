@@ -1,50 +1,33 @@
-nav {
-  background-color: rgb(116, 196, 236);
-  width: 100%;
+.nav {
+  background-color: lightblue;
+  border-bottom: 1px solid blue;
+  padding: 5;
+  top: 0;
+  right: 0;
+  left: 0;
   position: fixed;
   display: flex;
-  top: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  gap: 5px;
-  border-bottom: 1px solid black;
-}
-.navbar-item {
-  border: 1px solid black;
-  padding: 3px;
 }
 body {
-  margin: 0%;
-  background-color: lightblue;
+  margin: 0;
+  background-color: antiquewhite;
+  padding-top: 80px;
 }
-main {
-  margin-top: 100px;
-  margin-right: 20px;
-  margin-left: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  color: aliceblue;
+.nav a {
+  background-color: rgb(171, 176, 180);
+  color: rgb(43, 83, 114);
+  padding: 10px;
+  margin: 4px;
+  border: 1px solid black;
 }
 .header {
-  background-color: rgb(64, 119, 147);
-  font-size: 20px;
-  display: flex;
-  padding-left: 20px;
-  margin-right: 20px;
-  display: flex;
-  align-items: center
-  border: 1px solid blue;
-}
-span {
-  font-size: 50px;
+  color: white;
+  background-color: rgb(92, 150, 217);
+  border: 2px solid blue;
+  margin: 10px;
+  padding: 20px;
 }
 .homepage {
-  background-color: antiquewhite;
-  height: 600px;
-
-  color: black;
-  padding-left: 20px;
-  padding-top: 40px;
-  margin-right: 40px;
+  padding: 20px;
+  
 }

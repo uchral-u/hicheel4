@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+  background-color: aliceblue;
+  font-family: Arial, sans-serif;
+}
+
+.nav {
+  color: white;
+  background-color: rgb(94, 86, 198);
+  padding-top: 40px;
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+}
+
+nav div {
+  display: flex;
+  gap: 16px;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.Heading {
+  color: rgb(73, 45, 177);
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  border-radius: 20px;
+}
+ul {
+  list-style-type: none;
+}
+li::before {
+  content: "✓";
+  margin-right: 10px;
+  color: blue;
+}
+.spacing {
+  display: flex;
+  flex-direction: column;
+}
+.info div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0px;
+}
+.hightlight {
+  padding: 20px 10px;
+  background-color: aqua;
+  border-left: 3px solid red;
+}
+p {
+  color: black;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+}
+
+textarea {
+  height: 200px;
+  padding: 10px;
+}
+.heading2 {
+  color: rgb(73, 45, 177);
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(110, 53, 184);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: blue;
+}
+.info {
+  color: rgb(73, 45, 177);
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  padding: 50px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.footer {
+  background-color: rgb(59, 56, 56);
+  padding: 15px;
+  text-align: center;
+}
