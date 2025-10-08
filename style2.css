@@ -1,0 +1,85 @@
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navigations {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  position: fixed;
+  height: 80px;
+  top: 0;
+  z-index: 50;
+}
+.navigations a {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.navigations a:hover {
+  background-color: gray;
+}
+a.active {
+  background-color: violet;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  max-width: 70%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: wheat;
+}
+
+.sections-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 200px;
+  align-items: center;
+}
+.home-container {
+  height: 545px;
+  width: 100%;
+  display: flex;
+  gap:8px;
+}
+
+.exp {
+    display: flex;
+    gap: 4px;
+}
+.exp div {
+    height: 100px;
+    background-color: #F6EBFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image-container {
+    background-color: white; 
+    border-radius: 20px;
+}
