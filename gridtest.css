@@ -1,0 +1,44 @@
+body{
+    margin: 0px
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 10px;
+}
+.wrapper div {
+  display: flex;
+  background-color: white;
+  padding: 60px;
+  border: 1px solid #f9f7f7;
+  border-radius: 30px;
+}
+.block1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.star {
+  width: 20px;
+  height: 20px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.block1 button {
+  background-color: blue;
+
+}
+.block2{
+    display:flex;
+    
+}
