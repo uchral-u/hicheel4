@@ -1,19 +1,18 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  
   width: 600px;
   height: 400px;
   gap: 10px;
   background-color: rgb(117, 143, 180);
-    padding: 10px;
+  padding: 10px;
 }
 .wrapper div {
   background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-
 }
 
 .box1 {
@@ -40,4 +39,3 @@
   row-gap: 30px;
   border: 2px solid black;
 }
-
